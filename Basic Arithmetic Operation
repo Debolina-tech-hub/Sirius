@@ -1,0 +1,15 @@
+x=float(input("Enter the first number: "))
+y=float(input("Enter the second number: "))
+
+sum=x+y
+diff=x-y
+product=x*y
+print("Addition: ",sum)
+print("Subtraction: ",diff)
+print("Multiplication: ",product)
+
+if y==0:
+    print("Division: Cannot be divided by a zero")
+else:
+    div=x/y
+    print("Divison: ",div)    
